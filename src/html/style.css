@@ -1,24 +1,3 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #121049;
-}
-
-/* line 12, ../sass/screen.scss */
-li {
-    float: left;
-}
-/* line 14, ../sass/screen.scss */
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-<<<<<<< HEAD
 #left-section{
     height:500px;
 }
@@ -35,23 +14,10 @@ li a {
 #feelAboutRecycling {
     font-size: 50px;
 }
-=======
-<<<<<<< HEAD
-.active a:hover:not(.active){
-    background-color: #4CAF50;
-}
-.active{
-    background-color: #4CAF50;
-}
-body{
-    background-color:black;
-}
-=======
+
 #headerright{
     font-size: 100px;
 }
 #sectionright{
     float:left;
 }
->>>>>>> c9a256d14fe8a2473ed8df4039955433f7f8a54a
->>>>>>> 26c7cd5992dd5697db5da98f532174c1237f438b

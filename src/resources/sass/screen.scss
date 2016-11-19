@@ -1,60 +1,5 @@
 @import "compass/reset";
 
-
-html{
-  body{
-    background-color:#ffffff;
-    header{
-      font-family: "Segoe UI";
-      background-color: rgb(10, 35, 61);
-      height:130px;
-      width: 100%;
-      padding-top:30px;
-      #logo{
-        height:40px;
-        vertical-align: middle;
-        padding-left:35px;
-      }
-      #libero-text{
-        padding-left:40px;
-        font-size: 50px;
-        display:inline;
-        color: #ffffff;
-        vertical-align: middle;
-        font-family: "Times New Roman";
-        font-weight: 200;
-      }
-        ul{
-          display: inline;
-          list-style: none;
-          margin-left:25px;
-          padding-left:45px;
-          li{
-            font-size: 25px;
-            display: inline;
-            color: pink;
-            padding: 20px;
-            margin-left: 0px;
-            a{
-              text-decoration: none;
-              color: #ffffff;
-            }
-            a:hover{
-              text-decoration: underline;
-            }
-          }
-        }
-
-      #search{
-        float:right;
-        margin-right:20px;
-      }
-    }
-  }
-}
-
-<<<<<<< HEAD
-@import "compass/reset";
 $radBtnDimensionMultiplier: 1;
 $radBtnHeight : 60px * $radBtnDimensionMultiplier;
 $radBtnWidth : 80px * $radBtnDimensionMultiplier;
@@ -62,6 +7,64 @@ $inputColor : rgb(64, 119, 242);
 $pageFont : "Calibri";
 $pageFontColor : rgb(63, 63, 63);
 $darkBlue : rgb(10, 35, 61);
+
+html{
+  body{
+    background-color:#ffffff;
+    header{
+      display: block;
+      font-family: "Segoe UI";
+      background-color: rgb(10, 35, 61);
+      height:130px;
+      width: 100%;
+      padding-top:30px;
+
+      ul{
+        display: inline;
+        list-style: none;
+        margin-left:25px;
+        padding-left:45px;
+        li{
+          font-size: 25px;
+          display: inline;
+          color: pink;
+          padding: 20px;
+          margin-left: 0px;
+          a{
+            text-decoration: none;
+            color: #ffffff;
+          }
+          a:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+#main-header {
+  float:left;
+}
+
+#logo{
+  height:40px;
+  vertical-align: middle;
+  padding-left:35px;
+}
+#libero-text{
+  padding-left:40px;
+  font-size: 50px;
+  color: #ffffff;
+  vertical-align: middle;
+  font-family: "Times New Roman";
+  font-weight: 200;
+}
+
+#search{
+  float:right;
+  margin-right:20px;
+}
 
 #postCodeContainer {
   width: 140px;
@@ -184,5 +187,3 @@ input[type=radio]:not(old):checked + label > span > span{
     font-size: 30px;
   }
 }
-=======
->>>>>>> 26c7cd5992dd5697db5da98f532174c1237f438b

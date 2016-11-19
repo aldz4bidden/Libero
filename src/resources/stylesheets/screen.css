@@ -1,12 +1,10 @@
-<<<<<<< HEAD
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-=======
 /* line 5, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
->>>>>>> 26c7cd5992dd5697db5da98f532174c1237f438b
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,7 +15,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -67,11 +65,10 @@ a img {
 }
 
 /* line 116, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
   display: block;
 }
 
-<<<<<<< HEAD
 /* line 15, ../sass/screen.scss */
 #postCodeContainer {
   width: 140px;
@@ -199,7 +196,7 @@ input[type=radio]:not(old):checked + label > span > span {
   color: white;
   font-family: "Calibri";
   font-size: 30px;
-=======
+}
 /* line 5, ../sass/screen.scss */
 html body {
   background-color: #ffffff;
