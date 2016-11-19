@@ -11,10 +11,19 @@ li {
     float: left;
 }
 /* line 14, ../sass/screen.scss */
-li li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+.active a:hover:not(.active){
+    background-color: #4CAF50;
+}
+.active{
+    background-color: #4CAF50;
+}
+body{
+    background-color:black;
 }
