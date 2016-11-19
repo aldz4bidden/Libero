@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+=======
+/* line 5, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+>>>>>>> 26c7cd5992dd5697db5da98f532174c1237f438b
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -67,6 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+<<<<<<< HEAD
 /* line 15, ../sass/screen.scss */
 #postCodeContainer {
   width: 140px;
@@ -194,4 +199,62 @@ input[type=radio]:not(old):checked + label > span > span {
   color: white;
   font-family: "Calibri";
   font-size: 30px;
+=======
+/* line 5, ../sass/screen.scss */
+html body {
+  background-color: #ffffff;
+}
+/* line 7, ../sass/screen.scss */
+html body header {
+  font-family: "Segoe UI";
+  background-color: #0a233d;
+  height: 130px;
+  width: 100%;
+  padding-top: 30px;
+}
+/* line 13, ../sass/screen.scss */
+html body header #logo {
+  height: 40px;
+  vertical-align: middle;
+  padding-left: 35px;
+}
+/* line 18, ../sass/screen.scss */
+html body header #libero-text {
+  padding-left: 40px;
+  font-size: 50px;
+  display: inline;
+  color: #ffffff;
+  vertical-align: middle;
+  font-family: "Times New Roman";
+  font-weight: 200;
+}
+/* line 27, ../sass/screen.scss */
+html body header ul {
+  display: inline;
+  list-style: none;
+  margin-left: 25px;
+  padding-left: 45px;
+}
+/* line 32, ../sass/screen.scss */
+html body header ul li {
+  font-size: 25px;
+  display: inline;
+  color: pink;
+  padding: 20px;
+  margin-left: 0px;
+}
+/* line 38, ../sass/screen.scss */
+html body header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 42, ../sass/screen.scss */
+html body header ul li a:hover {
+  text-decoration: underline;
+}
+/* line 48, ../sass/screen.scss */
+html body header #search {
+  float: right;
+  margin-right: 20px;
+>>>>>>> 26c7cd5992dd5697db5da98f532174c1237f438b
 }
