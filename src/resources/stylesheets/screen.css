@@ -95,8 +95,8 @@ html body header #libero-text {
 html body header ul {
   display: inline;
   list-style: none;
-  margin-left: 20px;
-  padding-left: 50px;
+  margin-left: 25px;
+  padding-left: 45px;
 }
 /* line 32, ../sass/screen.scss */
 html body header ul li {
