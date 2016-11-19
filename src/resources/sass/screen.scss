@@ -1,38 +1,55 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(10, 35, 61);
+@import "compass/reset";
+
+
+html{
+  body{
+    background-color:#ffffff;
+    header{
+      font-family: "Segoe UI";
+      background-color: rgb(10, 35, 61);
+      height:130px;
+      width: 100%;
+      padding-top:30px;
+      #logo{
+        height:40px;
+        vertical-align: middle;
+        padding-left:35px;
+      }
+      #libero-text{
+        padding-left:40px;
+        font-size: 50px;
+        display:inline;
+        color: #ffffff;
+        vertical-align: middle;
+        font-family: "Times New Roman";
+        font-weight: 200;
+      }
+        ul{
+          display: inline;
+          list-style: none;
+          margin-left:20px;
+          padding-left:50px;
+          li{
+            font-size: 25px;
+            display: inline;
+            color: pink;
+            padding: 20px;
+            margin-left: 0px;
+            a{
+              text-decoration: none;
+              color: #ffffff;
+            }
+            a:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+
+      #search{
+        float:right;
+        margin-right:20px;
+      }
+    }
+  }
 }
 
-/* line 12, ../sass/screen.scss */
-li {
-  float: left;
-}
-/* line 14, ../sass/screen.scss */
-li a {
-  display: block;
-  color: white;
-  text-align: right;
-  padding: 20px 20px;
-  text-decoration: none;
-  font-size: 30px;
-}
-.active a:hover:not(.active){
-  text-decoration:underline;
-}
-.active{
-  text-decoration:underline;
-}
-body{
-  background-color:pink;
-}
-.main-header{
-  height: 150px;
-  font-family: "Segoe UI";
-}
-#logo{
-  height:70px;
-  vertical-align: middle;
-}
