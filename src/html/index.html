@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../resources/stylesheets/screen.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <title>Libero</title>
 </head>
 <section>
     <section>
-
         <header>
             <ul>
                 <li> <a class="active" href="#home">HOME</a> </li>
@@ -18,17 +18,36 @@
 
             </ul>
         </header>
-        
-        <span>Post code:</span>
-        <input type="text"/>
-        <p>
-            Should the government start enforcing garbage separation and recycling schemes across your area?
-        </p>
-        <input type="radio" value="Yes" checked="true"/>
-        <input type="radio" value="No" checked="false"/>
     </section>
-    <section>
-
+    <section id="left-section">
+        <p id="feelAboutRecycling" class="darkBlue defFont">How do you feel about recycling?</p>
+        <div id="ls-body">
+            <p id="postCodeLabel" class="defFont">Postcode:</p>
+            <div id="postCodeContainer" class="bdRadius borderHeight">
+                <input id="postCodeInputText" type="text"/>
+            </div>
+            <br/><br/><br/>
+            <p class="defFont">
+                Should the government start enforcing <br/>
+                garbage separation and recycling schemes <br/>
+                across your area?
+            </p>
+            <br/>
+            <div class="bdRadius borderHeight radioBtn">
+                <input id="option" type="radio" name="enforceGarbageSeparation" value="option">
+                <label for="option"><span><span></span></span>Yes</label>
+            </div>
+            <br/>
+            <div class="bdRadius borderHeight radioBtn">
+                <input id="option" type="radio" name="enforceGarbageSeparation" value="option">
+                <label for="option"><span><span></span></span>No</label>
+            </div>
+        </div>
+        <br/><br/><br/><br/><br/>
+        <div id="submitContainer" class="bdRadius borderHeight">
+            <input type="button" value="Submit">
+        </div>
+        <span class="clear"></span>
     </section>
 
     <section>
