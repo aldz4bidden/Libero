@@ -18,5 +18,9 @@ li li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-#headerleft{
+#headerright{
+    font-size: 100%;
+}
+#sectionright{
+    float:left;
 }
