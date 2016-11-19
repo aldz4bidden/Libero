@@ -10,13 +10,13 @@
     border: 2px solid rgb(64, 119, 242);
     height: 30px;
 }
-
-#feelAboutRecycling {
-    font-size: 50px;
+<<<<<<< HEA
 }
-
+>>>>>>> origin/master
 #headerright{
-    font-size: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 #sectionright{
     float:left;
