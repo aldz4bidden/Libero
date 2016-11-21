@@ -1,10 +1,4 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-/* line 5, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,7 +9,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -65,85 +59,95 @@ a img {
 }
 
 /* line 116, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 15, ../sass/screen.scss */
-#postCodeContainer {
-  width: 140px;
-  padding: 5px;
-}
-/* line 18, ../sass/screen.scss */
-#postCodeContainer input {
-  border: 0;
-  width: 120px;
-  height: 25px;
-  margin-left: 7px;
-  font-size: 20px;
-  color: #4077f2;
-}
-/* line 26, ../sass/screen.scss */
-#postCodeContainer input:focus {
-  outline: none;
+/******************************************SECTION LEFT******************************************/
+/* line 12, ../sass/screen.scss */
+#ls-container {
+  padding: 70px;
 }
 
-/* line 31, ../sass/screen.scss */
-.clear {
-  clear: both;
-}
-
-/* line 35, ../sass/screen.scss */
+/* line 16, ../sass/screen.scss */
 #ls-body {
+  margin-top: 30px;
   margin-left: 30px;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
+#feelAboutRecycling {
+  font-size: 4.5em;
+}
+
+/* line 25, ../sass/screen.scss */
 .radioBtn {
-  width: 80px;
+  width: 160px;
   text-align: center;
   vertical-align: text-top;
   background-color: #4077f2;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
+#yesRadioContainer {
+  margin: 0;
+}
+
+/* line 36, ../sass/screen.scss */
+#noRadioContainer {
+  margin-top: -56px;
+  margin-left: 180px;
+}
+
+/* line 41, ../sass/screen.scss */
+.bdRadius {
+  border-radius: 40px;
+}
+
+/* line 45, ../sass/screen.scss */
+.borderHeight {
+  border: 4px solid #4077f2;
+  height: 50px;
+}
+
+/* line 50, ../sass/screen.scss */
 .defFont {
   font-family: "Calibri";
-  font-size: 30px;
+  font-size: 3em;
   color: #3f3f3f;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .darkBlue {
   color: #0a233d;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 input[type=radio]:not(old) {
-  width: 2em;
-  margin-left: -15px;
+  width: 4em;
+  margin-left: -30px;
   padding: 0;
-  font-size: 1em;
+  font-size: 2em;
   opacity: 0;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 input[type=radio]:not(old) + label {
   display: inline-block;
-  margin-left: -2em;
-  line-height: 1.5em;
+  margin-left: -4em;
+  line-height: 3em;
   color: white;
   font-family: "Calibri";
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 input[type=radio]:not(old) + label > span {
   display: inline-block;
-  width: 0.875em;
-  height: 0.875em;
-  margin: 0.25em 0.5em 0.25em 0.25em;
-  border: 0.0625em solid silver;
-  border-radius: 10px;
+  width: 1.75em;
+  height: 1.75em;
+  margin: 0.5em 1em 0.5em 0.5em;
+  border: 0.125em solid silver;
+  border-radius: 20px;
   background: #e0e0e0;
   background-image: -moz-linear-gradient(#f0f0f0, #e0e0e0);
   background-image: -ms-linear-gradient(#f0f0f0, #e0e0e0);
@@ -153,7 +157,7 @@ input[type=radio]:not(old) + label > span {
   vertical-align: bottom;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 input[type=radio]:not(old):checked + label > span {
   background-image: -moz-linear-gradient(#e0e0e0, #f0f0f0);
   background-image: -ms-linear-gradient(#e0e0e0, #f0f0f0);
@@ -162,14 +166,14 @@ input[type=radio]:not(old):checked + label > span {
   background-image: linear-gradient(#e0e0e0, #f0f0f0);
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 input[type=radio]:not(old):checked + label > span > span {
   display: block;
-  width: 0.5em;
-  height: 0.5em;
-  margin: 0.125em;
-  border: 0.0625em solid #4077f2;
-  border-radius: 10px;
+  width: 1em;
+  height: 1em;
+  margin: 0.25em;
+  border: 0.125em solid #4077f2;
+  border-radius: 20px;
   background: #99cc66;
   background-image: -moz-linear-gradient(#ffffff, #ffffff);
   background-image: -ms-linear-gradient(#ffffff, #ffffff);
@@ -178,80 +182,126 @@ input[type=radio]:not(old):checked + label > span > span {
   background-image: linear-gradient(#ffffff, #ffffff);
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 #submitContainer {
-  width: 170px;
-  height: 50px;
+  width: 270px;
+  height: 70px;
   text-align: center;
   vertical-align: text-top;
   background-color: #0a233d;
-  border-radius: 25px;
+  border-color: #0a233d;
+  border-radius: 40px;
   float: right;
 }
-/* line 127, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #submitContainer input {
   border: 0;
-  margin-top: 5px;
+  margin-top: 0px;
   background-color: #0a233d;
   color: white;
   font-family: "Calibri";
-  font-size: 30px;
-}
-/* line 5, ../sass/screen.scss */
-html body {
-  background-color: #ffffff;
-}
-/* line 7, ../sass/screen.scss */
-html body header {
-  font-family: "Segoe UI";
-  background-color: #0a233d;
-  height: 130px;
-  width: 100%;
-  padding-top: 30px;
-}
-/* line 13, ../sass/screen.scss */
-html body header #logo {
-  height: 40px;
-  vertical-align: middle;
-  padding-left: 35px;
-}
-/* line 18, ../sass/screen.scss */
-html body header #libero-text {
-  padding-left: 40px;
   font-size: 50px;
-  display: inline;
+}
+
+/* line 140, ../sass/screen.scss */
+#postCodeContainer, #emailAddContainer, #mobileNumContainer {
+  width: 140px;
+  padding: 5px;
+}
+/* line 143, ../sass/screen.scss */
+#postCodeContainer input, #emailAddContainer input, #mobileNumContainer input {
+  border: 0;
+  margin-top: 10px;
+  height: 25px;
+  width: 200px;
+  margin-left: 20px;
+  font-size: 35px;
+  color: #4077f2;
+}
+/* line 152, ../sass/screen.scss */
+#postCodeContainer input:focus, #emailAddContainer input:focus, #mobileNumContainer input:focus {
+  outline: none;
+}
+
+/* line 157, ../sass/screen.scss */
+#postCodeContainer {
+  width: 250px;
+}
+
+/* line 163, ../sass/screen.scss */
+#emailAddContainer, #mobileNumContainer {
+  width: 400px;
+}
+
+/******************************************SECTION LEFT******************************************/
+/*
+$radBtnDimensionMultiplier: 1;
+$radBtnHeight : 60px * $radBtnDimensionMultiplier;
+$radBtnWidth : 80px * $radBtnDimensionMultiplier;
+$inputColor : rgb(64, 119, 242);
+$pageFont : "Calibri";
+$pageFontColor : rgb(63, 63, 63);
+$darkBlue : rgb(10, 35, 61);
+
+html{
+  body{
+    background-color:#ffffff;
+    header{
+      display: block;
+      font-family: "Segoe UI";
+      background-color: rgb(10, 35, 61);
+      height:130px;
+      width: 100%;
+      padding-top:30px;
+
+      ul{
+        display: inline;
+        list-style: none;
+        margin-left:25px;
+        padding-left:45px;
+        li{
+          font-size: 25px;
+          display: inline;
+          color: pink;
+          padding: 20px;
+          margin-left: 0px;
+          a{
+            text-decoration: none;
+            color: #ffffff;
+          }
+          a:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+#main-header {
+  float:left;
+}
+
+#logo{
+  height:40px;
+  vertical-align: middle;
+  padding-left:35px;
+}
+#libero-text{
+  padding-left:40px;
+  font-size: 50px;
   color: #ffffff;
   vertical-align: middle;
   font-family: "Times New Roman";
   font-weight: 200;
 }
-/* line 27, ../sass/screen.scss */
-html body header ul {
-  display: inline;
-  list-style: none;
-  margin-left: 25px;
-  padding-left: 45px;
+
+#search{
+  float:right;
+  margin-right:20px;
 }
-/* line 32, ../sass/screen.scss */
-html body header ul li {
-  font-size: 25px;
-  display: inline;
-  color: pink;
-  padding: 20px;
-  margin-left: 0px;
+
+.clear {
+  clear: both;
 }
-/* line 38, ../sass/screen.scss */
-html body header ul li a {
-  text-decoration: none;
-  color: #ffffff;
-}
-/* line 42, ../sass/screen.scss */
-html body header ul li a:hover {
-  text-decoration: underline;
-}
-/* line 48, ../sass/screen.scss */
-html body header #search {
-  float: right;
-  margin-right: 20px;
->>>>>>> 26c7cd5992dd5697db5da98f532174c1237f438b
-}
+*/

@@ -1,5 +1,169 @@
 @import "compass/reset";
 
+/******************************************SECTION LEFT******************************************/
+$radBtnDimensionMultiplier: 2;
+$radBtnHeight : 60px * $radBtnDimensionMultiplier;
+$radBtnWidth : 80px * $radBtnDimensionMultiplier;
+$inputColor : rgb(64, 119, 242);
+$pageFont : "Calibri";
+$pageFontColor : rgb(63, 63, 63);
+$darkBlue : rgb(10, 35, 61);
+
+#ls-container {
+  padding: 70px;
+}
+
+#ls-body {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#feelAboutRecycling {
+  font-size: 4.5em;
+}
+
+.radioBtn {
+  width: $radBtnWidth;
+  text-align: center;
+  vertical-align: text-top;
+  background-color: $inputColor;
+}
+
+#yesRadioContainer {
+  margin: 0;
+}
+
+#noRadioContainer {
+  margin-top: -56px;
+  margin-left: 180px;
+}
+
+.bdRadius {
+  border-radius: 20px * $radBtnDimensionMultiplier;
+}
+
+.borderHeight {
+  border: 4px solid rgb(64, 119, 242);
+  height: 25px * $radBtnDimensionMultiplier;
+}
+
+.defFont {
+  font-family: $pageFont;
+  font-size: 3em;
+  color: $pageFontColor;
+}
+
+.darkBlue {
+  color: $darkBlue;
+}
+
+input[type=radio]:not(old){
+  width     : 2em * $radBtnDimensionMultiplier;
+  margin-left    : -15px * $radBtnDimensionMultiplier;
+  padding   : 0;
+  font-size : 1em * $radBtnDimensionMultiplier;
+  opacity   : 0;
+}
+
+input[type=radio]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -2em * $radBtnDimensionMultiplier;
+  line-height  : 1.5em * $radBtnDimensionMultiplier;
+  color: white;
+  font-family: $pageFont;
+}
+
+$color1 : rgb(192,192,192);
+$color2 : rgb(224,224,224);
+$color3 : rgb(240,240,240);
+$color4 : #ffffff;//rgb(179,217,140);
+$color5 : #ffffff;//(153,204,102);
+
+input[type=radio]:not(old) + label > span{
+  display          : inline-block;
+  width            : 0.875em*$radBtnDimensionMultiplier;
+  height           : 0.875em*$radBtnDimensionMultiplier;
+  margin           : 0.25em*$radBtnDimensionMultiplier 0.5em*$radBtnDimensionMultiplier 0.25em*$radBtnDimensionMultiplier 0.25em*$radBtnDimensionMultiplier;
+  border           : 0.0625em*$radBtnDimensionMultiplier solid $color1;
+  border-radius    : 10px*$radBtnDimensionMultiplier;
+  background       : $color2;
+  background-image :    -moz-linear-gradient($color3,$color2);
+  background-image :     -ms-linear-gradient($color3,$color2);
+  background-image :      -o-linear-gradient($color3,$color2);
+  background-image : -webkit-linear-gradient($color3,$color2);
+  background-image :         linear-gradient($color3,$color2);
+  vertical-align   : bottom;
+}
+
+input[type=radio   ]:not(old):checked + label > span{
+  background-image :    -moz-linear-gradient($color2,$color3);
+  background-image :     -ms-linear-gradient($color2,$color3);
+  background-image :      -o-linear-gradient($color2,$color3);
+  background-image : -webkit-linear-gradient($color2,$color3);
+  background-image :         linear-gradient($color2,$color3);
+}
+
+input[type=radio]:not(old):checked + label > span > span{
+  display          : block;
+  width            : 0.5em*$radBtnDimensionMultiplier;
+  height           : 0.5em*$radBtnDimensionMultiplier;
+  margin           : 0.125em*$radBtnDimensionMultiplier;
+  border           : 0.0625em*$radBtnDimensionMultiplier solid $inputColor;
+  border-radius    : 10px*$radBtnDimensionMultiplier;
+  background       : rgb(153,204,102);
+  background-image :    -moz-linear-gradient($color4,$color5);
+  background-image :     -ms-linear-gradient($color4,$color5);
+  background-image :      -o-linear-gradient($color4,$color5);
+  background-image : -webkit-linear-gradient($color4,$color5);
+  background-image :         linear-gradient($color4,$color5);
+}
+
+#submitContainer {
+  width: 270px;
+  height: 70px;
+  text-align: center;
+  vertical-align: text-top;
+  background-color: $darkBlue;
+  border-color: $darkBlue;
+  border-radius: 40px;
+  float: right;
+  input {
+    border: 0;
+    margin-top: 0px;
+    background-color: $darkBlue;
+    color: white;
+    font-family: $pageFont;
+    font-size: 50px;
+  }
+}
+
+#postCodeContainer, #emailAddContainer, #mobileNumContainer {
+  width: 140px;
+  padding: 5px;
+  input {
+    border : 0;
+    margin-top: 10px;
+    height: 25px;
+    width: 200px;
+    margin-left: 20px;
+    font-size: 35px;
+    color: $inputColor;
+  }
+  input:focus {
+    outline: none;
+  }
+}
+
+#postCodeContainer {
+  width: 250px;
+  input {
+  }
+}
+
+#emailAddContainer, #mobileNumContainer {
+  width: 400px;
+}
+/******************************************SECTION LEFT******************************************/
 /*
 $radBtnDimensionMultiplier: 1;
 $radBtnHeight : 60px * $radBtnDimensionMultiplier;
@@ -67,125 +231,7 @@ html{
   margin-right:20px;
 }
 
-#postCodeContainer {
-  width: 140px;
-  padding: 5px;
-  input {
-    border : 0;
-    width: 120px;
-    height: 25px;
-    margin-left: 7px;
-    font-size: 20px;
-    color: $inputColor;
-  }
-  input:focus {
-    outline: none;
-  }
-}
-
 .clear {
   clear: both;
-}
-
-#ls-body
-{
-  margin-left: 30px;
-}
-
-.radioBtn {
-  width: $radBtnWidth;
-  text-align: center;
-  vertical-align: text-top;
-  background-color: $inputColor;
-}
-
-.defFont {
-  font-family: $pageFont;
-  font-size: 30px;
-  color: $pageFontColor;
-}
-
-.darkBlue {
-  color: $darkBlue;
-}
-
-input[type=radio]:not(old){
-  width     : 2em;
-  margin-left    : -15px;
-  padding   : 0;
-  font-size : 1em;
-  opacity   : 0;
-}
-
-input[type=radio]:not(old) + label{
-  display      : inline-block;
-  margin-left  : -2em;
-  line-height  : 1.5em;
-  color: white;
-  font-family: $pageFont;
-}
-
-$color1 : rgb(192,192,192);
-$color2 : rgb(224,224,224);
-$color3 : rgb(240,240,240);
-$color4 : #ffffff;//rgb(179,217,140);
-$color5 : #ffffff;//(153,204,102);
-
-input[type=radio]:not(old) + label > span{
-  display          : inline-block;
-  width            : 0.875em*$radBtnDimensionMultiplier;
-  height           : 0.875em*$radBtnDimensionMultiplier;
-  margin           : 0.25em*$radBtnDimensionMultiplier 0.5em*$radBtnDimensionMultiplier 0.25em*$radBtnDimensionMultiplier 0.25em*$radBtnDimensionMultiplier;
-  border           : 0.0625em*$radBtnDimensionMultiplier solid $color1;
-  border-radius    : 10px*$radBtnDimensionMultiplier;
-  background       : $color2;
-  background-image :    -moz-linear-gradient($color3,$color2);
-  background-image :     -ms-linear-gradient($color3,$color2);
-  background-image :      -o-linear-gradient($color3,$color2);
-  background-image : -webkit-linear-gradient($color3,$color2);
-  background-image :         linear-gradient($color3,$color2);
-  vertical-align   : bottom;
-}
-
-input[type=radio   ]:not(old):checked + label > span{
-  background-image :    -moz-linear-gradient($color2,$color3);
-  background-image :     -ms-linear-gradient($color2,$color3);
-  background-image :      -o-linear-gradient($color2,$color3);
-  background-image : -webkit-linear-gradient($color2,$color3);
-  background-image :         linear-gradient($color2,$color3);
-}
-
-input[type=radio]:not(old):checked + label > span > span{
-  display          : block;
-  width            : 0.5em*$radBtnDimensionMultiplier;
-  height           : 0.5em*$radBtnDimensionMultiplier;
-  margin           : 0.125em*$radBtnDimensionMultiplier;
-  border           : 0.0625em*$radBtnDimensionMultiplier solid $inputColor;
-  border-radius    : 10px*$radBtnDimensionMultiplier;
-  background       : rgb(153,204,102);
-  background-image :    -moz-linear-gradient($color4,$color5);
-  background-image :     -ms-linear-gradient($color4,$color5);
-  background-image :      -o-linear-gradient($color4,$color5);
-  background-image : -webkit-linear-gradient($color4,$color5);
-  background-image :         linear-gradient($color4,$color5);
-}
-
-#submitContainer {
-  width: 170px;
-  height: 50px;
-  text-align: center;
-  vertical-align: text-top;
-  background-color: $darkBlue;
-  border-radius: 25px;
-  float: right;
-
-  input {
-    border: 0;
-    margin-top: 5px;
-    background-color: $darkBlue;
-    color: white;
-    font-family: $pageFont;
-    font-size: 30px;
-  }
 }
 */

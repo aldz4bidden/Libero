@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="../resources/stylesheets/screen.css"/>
     <title>Libero</title>
 </head>
 <body>
@@ -23,32 +23,42 @@
     </header>
     <span class="clear"></span>
     <section id="left-section">
-        <p id="feelAboutRecycling" class="darkBlue defFont">How do you feel about recycling?</p>
-        <div id="ls-body">
-            <p id="postCodeLabel" class="defFont">Postcode:</p>
-            <div id="postCodeContainer" class="bdRadius borderHeight">
-                <input id="postCodeInputText" type="text"/>
+        <div id="ls-container">
+            <p id="feelAboutRecycling" class="darkBlue defFont">How do you feel about recycling?</p>
+            <div id="ls-body">
+                <p id="postCodeLabel" class="defFont">Postcode:</p>
+                <div id="postCodeContainer" class="bdRadius borderHeight">
+                    <input id="postCodeInputText" type="text"/>
+                </div>
+                <br/>
+                <p class="defFont">
+                    Should the government start enforcing garbage<br/>
+                    separation and recycling schemes across your area?<br/>
+                </p>
+                <br/>
+                <div id="yesRadioContainer" class="bdRadius borderHeight radioBtn">
+                    <input id="option" type="radio" name="enforceGarbageSeparation" value="option">
+                    <label for="option"><span><span></span></span>Yes</label>
+                </div>
+                <div id="noRadioContainer" class="bdRadius borderHeight radioBtn">
+                    <input id="option" type="radio" name="enforceGarbageSeparation" value="option">
+                    <label for="option"><span><span></span></span>No</label>
+                </div>
+                <br/>
+                <p id="emailAddLabel" class="defFont">E-mail Address:</p>
+                <div id="emailAddContainer" class="bdRadius borderHeight">
+                    <input id="emailAddInputText" type="text"/>
+                </div>
+                <br/>
+                <p id="mobileNumLabel" class="defFont">Mobile Number:</p>
+                <div id="mobileNumContainer" class="bdRadius borderHeight">
+                    <input id="mobileNumInputText" type="text"/>
+                </div>
             </div>
             <br/><br/><br/>
-            <p class="defFont">
-                Should the government start enforcing <br/>
-                garbage separation and recycling schemes <br/>
-                across your area?
-            </p>
-            <br/>
-            <div class="bdRadius borderHeight radioBtn">
-                <input id="option" type="radio" name="enforceGarbageSeparation" value="option">
-                <label for="option"><span><span></span></span>Yes</label>
+            <div id="submitContainer" class="bdRadius borderHeight">
+                <input type="button" value="Submit">
             </div>
-            <br/>
-            <div class="bdRadius borderHeight radioBtn">
-                <input id="option" type="radio" name="enforceGarbageSeparation" value="option">
-                <label for="option"><span><span></span></span>No</label>
-            </div>
-        </div>
-        <br/><br/><br/><br/><br/>
-        <div id="submitContainer" class="bdRadius borderHeight">
-            <input type="button" value="Submit">
         </div>
     </section>
     <section id="right-section">
