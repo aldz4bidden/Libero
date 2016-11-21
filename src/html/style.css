@@ -1,5 +1,21 @@
-#main-header {
+#main-header, #main-footer, #left-section, #right-section {
     border: 1px solid;
+}
+
+#left-section {
+    float: left;
+    width: 60%;
+    height : 700px;
+}
+
+#right-section {
+    float: right;
+    width: 38%;
+    height: 700px;
+}
+
+.clear {
+    clear: both;
 }
 /*
 
