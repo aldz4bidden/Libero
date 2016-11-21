@@ -1,3 +1,8 @@
+#main-header {
+    border: 1px solid;
+}
+/*
+
 #left-section{
     height:500px;
 }
@@ -10,14 +15,65 @@
     border: 2px solid rgb(64, 119, 242);
     height: 30px;
 }
-<<<<<<< HEA
-}
->>>>>>> origin/master
+
 #headerright{
     font-size: 30px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 #sectionright{
-    float:left;
+    float:right;
 }
+
+#sectionright_H1a {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    color: white;
+    letter-spacing: -1px;
+    !*padding: 9px;*!
+    padding-left:30px ;
+    font-size: 21px;
+    margin-top: 0px;
+}
+
+#sectionright_H2a span{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 288px;
+    color: white;
+    letter-spacing: -1px;
+    background: rgb(68, 92, 147); !* fallback color *!
+    background: rgba(68, 92, 147);
+    font-size: small;
+}
+
+.sectionright_F{
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+#sectionright_H1b {
+    position: absolute;
+    top: 408px;
+    left: 0;
+    width: 100%;
+    color: white;
+    letter-spacing: -1px;
+    !*padding: 9px;*!
+    padding-left:30px ;
+    font-size: 21px;
+    margin-top: 0px;
+}
+
+#sectionright_H2b span{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 483px;
+    color: white;
+    letter-spacing: -1px;
+    background: rgb(68, 92, 147); !* fallback color *!
+    background: rgba(68, 92, 147);
+    font-size: small;
+}
+*/
