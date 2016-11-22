@@ -316,75 +316,73 @@ input[type=radio]:not(old):checked + label > span > span {
   width: 400px;
 }
 
-/******************************************SECTION LEFT******************************************/
-/*
-$radBtnDimensionMultiplier: 1;
-$radBtnHeight : 60px * $radBtnDimensionMultiplier;
-$radBtnWidth : 80px * $radBtnDimensionMultiplier;
-$inputColor : rgb(64, 119, 242);
-$pageFont : "Calibri";
-$pageFontColor : rgb(63, 63, 63);
-$darkBlue : rgb(10, 35, 61);
-
-html{
-  body{
-    background-color:#ffffff;
-    header{
-      display: block;
-      font-family: "Segoe UI";
-      background-color: rgb(10, 35, 61);
-      height:130px;
-      width: 100%;
-      padding-top:30px;
-
-      ul{
-        display: inline;
-        list-style: none;
-        margin-left:25px;
-        padding-left:45px;
-        li{
-          font-size: 25px;
-          display: inline;
-          color: pink;
-          padding: 20px;
-          margin-left: 0px;
-          a{
-            text-decoration: none;
-            color: #ffffff;
-          }
-          a:hover{
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-  }
-}
-
-#main-header {
-  float:left;
-}
-
-#logo{
-  height:40px;
-  vertical-align: middle;
-  padding-left:35px;
-}
-#libero-text{
-  padding-left:40px;
-  font-size: 50px;
-  color: #ffffff;
-  vertical-align: middle;
-  font-family: "Times New Roman";
-  font-weight: 200;
-}
-
-#search{
-  float:right;
-  margin-right:20px;
-}
-
-.clear {
+/***************************FOOTER ***************************************/
+/* line 241, ../sass/screen.scss */
+#main-footer {
+  margin: auto;
   clear: both;
+  width: 960px;
 }
-*/
+
+/* line 247, ../sass/screen.scss */
+.footer-menu {
+  float: left;
+  width: 8%;
+  padding: 20px;
+  line-height: 20px;
+  color: #0a233d;
+  font-family: Arial;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 259, ../sass/screen.scss */
+.footer-category {
+  padding: 5px 5px;
+  border-bottom: 1px solid #4077f2;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 267, ../sass/screen.scss */
+.list-right {
+  width: 50%;
+  color: #4077f2;
+  border-radius: 50%;
+  border: 1px solid #4077f2;
+  background-color: #4077f2;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 277, ../sass/screen.scss */
+.list-area {
+  float: left;
+  width: 50px;
+  margin-top: 22px;
+  margin-left: 70px;
+}
+
+/* line 283, ../sass/screen.scss */
+.list-area div {
+  margin-bottom: 10px;
+}
+
+/* line 288, ../sass/screen.scss */
+.list-text {
+  float: left;
+  width: 50px;
+}
+
+/* line 294, ../sass/screen.scss */
+.text-right {
+  color: #0a233d;
+  font-size: 18px;
+  width: 50px;
+  margin-top: 25px;
+  float: left;
+  font-weight: bold;
+  font-family: Roboto, Serif;
+}
