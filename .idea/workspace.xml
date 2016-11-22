@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e815c10-41b6-49f9-a1b3-91d3b13b32f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/.sass-cache/5488737ec5ebc1a8a1e63e67a2d31e8a7244ef83/ie.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/.sass-cache/5488737ec5ebc1a8a1e63e67a2d31e8a7244ef83/print.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/.sass-cache/5488737ec5ebc1a8a1e63e67a2d31e8a7244ef83/screen.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/.sass-cache/ac07343fff0f1a01e33dd6025a27a8e44dde999b/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/index.html" afterPath="$PROJECT_DIR$/src/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/style.css" afterPath="$PROJECT_DIR$/src/html/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/sass/screen.scss" afterPath="$PROJECT_DIR$/src/resources/sass/screen.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/stylesheets/screen.css" afterPath="$PROJECT_DIR$/src/resources/stylesheets/screen.css" />
     </list>
@@ -38,8 +29,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+            <state relative-caret-position="884">
+              <caret line="64" column="14" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -48,8 +49,8 @@
       <file leaf-file-name="screen.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/sass/screen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="269" column="21" selection-start-line="269" selection-start-column="21" selection-end-line="269" selection-end-column="21" />
+            <state relative-caret-position="213">
+              <caret line="205" column="17" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -69,6 +70,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/html/index.html" />
+        <option value="$PROJECT_DIR$/src/html/style.css" />
         <option value="$PROJECT_DIR$/src/resources/sass/screen.scss" />
       </list>
     </option>
@@ -633,12 +635,12 @@
       <option name="presentableId" value="Default" />
       <updated>1479726576049</updated>
       <workItem from="1479726577190" duration="33000" />
-      <workItem from="1479812311836" duration="1422000" />
+      <workItem from="1479812311836" duration="2665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1455000" />
+    <option name="totallyTimeSpent" value="2698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -688,16 +690,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+        <state relative-caret-position="884">
+          <caret line="64" column="14" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/sass/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="269" column="21" selection-start-line="269" selection-start-column="21" selection-end-line="269" selection-end-column="21" />
+        <state relative-caret-position="213">
+          <caret line="205" column="17" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
           <folding />
         </state>
       </provider>

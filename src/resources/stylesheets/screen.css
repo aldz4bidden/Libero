@@ -130,39 +130,41 @@ html body .parent-header #main-header #search {
 /******************************************SECTION LEFT******************************************/
 /* line 68, ../sass/screen.scss */
 #ls-container {
+  margin-top: 20px;
   padding: 70px;
+  border-right: 3px solid #878787;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 #ls-body {
   margin-top: 30px;
   margin-left: 30px;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 #feelAboutRecycling {
-  font-size: 4.5em;
+  font-size: 4em;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .radioBtn {
-  width: 160px;
+  width: 80px;
   text-align: center;
   vertical-align: text-top;
   background-color: #4077f2;
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 #yesRadioContainer {
   margin: 0;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 #postCodeContainer {
   width: 140px;
   padding: 5px;
 }
-/* line 95, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 #postCodeContainer input {
   border: 0;
   width: 120px;
@@ -171,66 +173,66 @@ html body .parent-header #main-header #search {
   font-size: 20px;
   color: #4077f2;
 }
-/* line 103, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 #postCodeContainer input:focus {
   outline: none;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 #noRadioContainer {
-  margin-top: -56px;
-  margin-left: 180px;
+  margin-top: -30px;
+  margin-left: 110px;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .bdRadius {
-  border-radius: 40px;
+  border-radius: 20px;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .borderHeight {
   border: 4px solid #4077f2;
-  height: 50px;
+  height: 25px;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .defFont {
   font-family: "Calibri";
-  font-size: 3em;
+  font-size: 2.5em;
   color: #3f3f3f;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .darkBlue {
   color: #0a233d;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 input[type=radio]:not(old) {
-  width: 4em;
-  margin-left: -30px;
+  width: 2em;
+  margin-left: -15px;
   padding: 0;
-  font-size: 2em;
+  font-size: 1em;
   opacity: 0;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 input[type=radio]:not(old) + label {
   display: inline-block;
-  margin-left: -4em;
-  line-height: 3em;
+  margin-left: -2em;
+  line-height: 1.5em;
   color: white;
   font-family: "Calibri";
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 input[type=radio]:not(old) + label > span {
   display: inline-block;
-  width: 1.75em;
-  height: 1.75em;
-  margin: 0.5em 1em 0.5em 0.5em;
-  border: 0.125em solid silver;
-  border-radius: 20px;
+  width: 0.875em;
+  height: 0.875em;
+  margin: 0.25em 0.5em 0.25em 0.25em;
+  border: 0.0625em solid silver;
+  border-radius: 10px;
   background: #e0e0e0;
   background-image: -moz-linear-gradient(#f0f0f0, #e0e0e0);
   background-image: -ms-linear-gradient(#f0f0f0, #e0e0e0);
@@ -240,7 +242,7 @@ input[type=radio]:not(old) + label > span {
   vertical-align: bottom;
 }
 
-/* line 170, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 input[type=radio]:not(old):checked + label > span {
   background-image: -moz-linear-gradient(#e0e0e0, #f0f0f0);
   background-image: -ms-linear-gradient(#e0e0e0, #f0f0f0);
@@ -249,14 +251,14 @@ input[type=radio]:not(old):checked + label > span {
   background-image: linear-gradient(#e0e0e0, #f0f0f0);
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 input[type=radio]:not(old):checked + label > span > span {
   display: block;
-  width: 1em;
-  height: 1em;
-  margin: 0.25em;
-  border: 0.125em solid #4077f2;
-  border-radius: 20px;
+  width: 0.5em;
+  height: 0.5em;
+  margin: 0.125em;
+  border: 0.0625em solid #4077f2;
+  border-radius: 10px;
   background: #99cc66;
   background-image: -moz-linear-gradient(#ffffff, #ffffff);
   background-image: -ms-linear-gradient(#ffffff, #ffffff);
@@ -265,10 +267,10 @@ input[type=radio]:not(old):checked + label > span > span {
   background-image: linear-gradient(#ffffff, #ffffff);
 }
 
-/* line 193, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 #submitContainer {
-  width: 270px;
-  height: 70px;
+  width: 200px;
+  height: 50px;
   text-align: center;
   vertical-align: text-top;
   background-color: #0a233d;
@@ -276,55 +278,63 @@ input[type=radio]:not(old):checked + label > span > span {
   border-radius: 40px;
   float: right;
 }
-/* line 202, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 #submitContainer input {
   border: 0;
-  margin-top: 0px;
+  margin-top: 7px;
   background-color: #0a233d;
   color: white;
   font-family: "Calibri";
-  font-size: 50px;
+  font-size: 30px;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 #postCodeContainer, #emailAddContainer, #mobileNumContainer {
   width: 140px;
   padding: 5px;
 }
-/* line 215, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #postCodeContainer input, #emailAddContainer input, #mobileNumContainer input {
   border: 0;
-  margin-top: 10px;
+  margin-top: 0px;
   height: 25px;
-  width: 200px;
+  width: 360px;
   margin-left: 20px;
-  font-size: 35px;
+  font-size: 25px;
   color: #4077f2;
 }
-/* line 224, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 #postCodeContainer input:focus, #emailAddContainer input:focus, #mobileNumContainer input:focus {
   outline: none;
 }
 
-/* line 229, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 #postCodeContainer {
   width: 250px;
 }
+/* line 233, ../sass/screen.scss */
+#postCodeContainer input {
+  width: 200px;
+}
 
-/* line 235, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 #emailAddContainer, #mobileNumContainer {
   width: 400px;
 }
 
 /***************************FOOTER ***************************************/
-/* line 241, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 #main-footer {
-  margin: auto;
   clear: both;
+  width: 100%;
+}
+/* line 247, ../sass/screen.scss */
+#main-footer section {
   width: 960px;
+  margin: 0 auto;
 }
 
-/* line 247, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 .footer-menu {
   float: left;
   width: 8%;
@@ -337,7 +347,7 @@ input[type=radio]:not(old):checked + label > span > span {
   font-weight: bold;
 }
 
-/* line 259, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .footer-category {
   padding: 5px 5px;
   border-bottom: 1px solid #4077f2;
@@ -346,7 +356,7 @@ input[type=radio]:not(old):checked + label > span > span {
   font-weight: bold;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .list-right {
   width: 50%;
   color: #4077f2;
@@ -357,7 +367,7 @@ input[type=radio]:not(old):checked + label > span > span {
   height: 20px;
 }
 
-/* line 277, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .list-area {
   float: left;
   width: 50px;
@@ -365,18 +375,18 @@ input[type=radio]:not(old):checked + label > span > span {
   margin-left: 70px;
 }
 
-/* line 283, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 .list-area div {
   margin-bottom: 10px;
 }
 
-/* line 288, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .list-text {
   float: left;
   width: 50px;
 }
 
-/* line 294, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .text-right {
   color: #0a233d;
   font-size: 18px;

@@ -1,17 +1,17 @@
-#main-header, #main-footer, #left-section, #right-section {
+#main-footer {
     border: 1px solid;
 }
 
 #left-section {
     float: left;
     width: 60%;
-    height: 900px;
+    height: 730px;
 }
 
 #right-section {
     float: right;
     width: 38%;
-    height: 900px;
+    height: 730px;
 }
 
 .clear {
