@@ -5,13 +5,13 @@
 #left-section {
     float: left;
     width: 60%;
-    height: 700px;
+    height: 900px;
 }
 
 #right-section {
     float: right;
     width: 38%;
-    height: 700px;
+    height: 900px;
 }
 
 .clear {

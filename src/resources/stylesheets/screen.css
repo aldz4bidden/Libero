@@ -63,24 +63,88 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/******************************************HEADER******************************************/
+/* line 4, ../sass/screen.scss */
+html body {
+  background-color: #ffffff;
+}
+/* line 6, ../sass/screen.scss */
+html body .parent-header {
+  display: block;
+  font-family: "Segoe UI";
+  background-color: #0a233d;
+  height: 200px;
+}
+/* line 11, ../sass/screen.scss */
+html body .parent-header #main-header {
+  padding-top: 70px;
+}
+/* line 13, ../sass/screen.scss */
+html body .parent-header #main-header #logo {
+  height: 50px;
+  vertical-align: middle;
+  padding-left: 35px;
+  display: inline;
+}
+/* line 19, ../sass/screen.scss */
+html body .parent-header #main-header #libero-text {
+  display: inline;
+  padding-left: 40px;
+  font-size: 60px;
+  color: #ffffff;
+  vertical-align: middle;
+  font-family: "Times New Roman";
+  font-weight: lighter;
+}
+/* line 28, ../sass/screen.scss */
+html body .parent-header #main-header .nav {
+  display: inline;
+  list-style: none;
+  margin-left: 25px;
+  padding-left: 45px;
+}
+/* line 33, ../sass/screen.scss */
+html body .parent-header #main-header .nav li {
+  font-size: 30px;
+  display: inline;
+  color: pink;
+  padding: 20px;
+  margin-left: 0px;
+}
+/* line 39, ../sass/screen.scss */
+html body .parent-header #main-header .nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 43, ../sass/screen.scss */
+html body .parent-header #main-header .nav li a:hover {
+  text-decoration: underline;
+}
+/* line 48, ../sass/screen.scss */
+html body .parent-header #main-header #search {
+  float: right;
+  padding-right: 20px;
+  height: 65px;
+}
+
 /******************************************SECTION LEFT******************************************/
-/* line 12, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 #ls-container {
   padding: 70px;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 #ls-body {
   margin-top: 30px;
   margin-left: 30px;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 #feelAboutRecycling {
   font-size: 4.5em;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .radioBtn {
   width: 160px;
   text-align: center;
@@ -88,41 +152,60 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #4077f2;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 #yesRadioContainer {
   margin: 0;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
+#postCodeContainer {
+  width: 140px;
+  padding: 5px;
+}
+/* line 95, ../sass/screen.scss */
+#postCodeContainer input {
+  border: 0;
+  width: 120px;
+  height: 25px;
+  margin-left: 7px;
+  font-size: 20px;
+  color: #4077f2;
+}
+/* line 103, ../sass/screen.scss */
+#postCodeContainer input:focus {
+  outline: none;
+}
+
+/* line 108, ../sass/screen.scss */
 #noRadioContainer {
   margin-top: -56px;
   margin-left: 180px;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .bdRadius {
   border-radius: 40px;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .borderHeight {
   border: 4px solid #4077f2;
   height: 50px;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .defFont {
   font-family: "Calibri";
   font-size: 3em;
   color: #3f3f3f;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 .darkBlue {
   color: #0a233d;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 input[type=radio]:not(old) {
   width: 4em;
   margin-left: -30px;
@@ -131,7 +214,7 @@ input[type=radio]:not(old) {
   opacity: 0;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 input[type=radio]:not(old) + label {
   display: inline-block;
   margin-left: -4em;
@@ -140,7 +223,7 @@ input[type=radio]:not(old) + label {
   font-family: "Calibri";
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 input[type=radio]:not(old) + label > span {
   display: inline-block;
   width: 1.75em;
@@ -157,7 +240,7 @@ input[type=radio]:not(old) + label > span {
   vertical-align: bottom;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 input[type=radio]:not(old):checked + label > span {
   background-image: -moz-linear-gradient(#e0e0e0, #f0f0f0);
   background-image: -ms-linear-gradient(#e0e0e0, #f0f0f0);
@@ -166,7 +249,7 @@ input[type=radio]:not(old):checked + label > span {
   background-image: linear-gradient(#e0e0e0, #f0f0f0);
 }
 
-/* line 106, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 input[type=radio]:not(old):checked + label > span > span {
   display: block;
   width: 1em;
@@ -182,7 +265,7 @@ input[type=radio]:not(old):checked + label > span > span {
   background-image: linear-gradient(#ffffff, #ffffff);
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #submitContainer {
   width: 270px;
   height: 70px;
@@ -193,7 +276,7 @@ input[type=radio]:not(old):checked + label > span > span {
   border-radius: 40px;
   float: right;
 }
-/* line 130, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 #submitContainer input {
   border: 0;
   margin-top: 0px;
@@ -203,12 +286,12 @@ input[type=radio]:not(old):checked + label > span > span {
   font-size: 50px;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 #postCodeContainer, #emailAddContainer, #mobileNumContainer {
   width: 140px;
   padding: 5px;
 }
-/* line 143, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 #postCodeContainer input, #emailAddContainer input, #mobileNumContainer input {
   border: 0;
   margin-top: 10px;
@@ -218,17 +301,17 @@ input[type=radio]:not(old):checked + label > span > span {
   font-size: 35px;
   color: #4077f2;
 }
-/* line 152, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 #postCodeContainer input:focus, #emailAddContainer input:focus, #mobileNumContainer input:focus {
   outline: none;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 #postCodeContainer {
   width: 250px;
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 #emailAddContainer, #mobileNumContainer {
   width: 400px;
 }
