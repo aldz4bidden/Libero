@@ -2,92 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="../resources/stylesheets/screen.css"/>
     <title>Libero</title>
 </head>
 <body>
-<section>
-    <section>
-
-        <header>
-            <div class="parent-header">
-                <div id="main-header">
-                    <a target="_blank" href="#"><img id="logo" src="../img/logo.png" alt="Libero" /></a>
-                    <h1 id="libero-text">LIBERO</h1>
-                    <ul class="nav">
-                        <li> <a class="active" href="#home">HOME</a> </li>
-                        <li> <a class="#" href="#news">NEWS</a></li>
-                        <li> <a class="#" href="#events">EVENTS</a></li>
-                        <li> <a class="#" href="#world">WORLD</a></li>
-                        <li class="search"> <img id="search" src="../img/searchlogo.png" alt="Libero" /></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-        <p class="clr"></p>
-
-
-
-        <span>Post code:</span>
-        <input type="text"/>
-        <p>
-            Should the government start enforcing garbage separation and recycling schemes across your area?
+<header>
+    <div id="main-header">
+        <a target="_blank" href="#"><img id="logo" src="../img/logo.png" alt="Libero" /></a>
+        <h1 id="libero-text">LIBERO</h1>
+        <ul class="nav">
+            <li> <a class="active" href="#home">HOME</a> </li>
+            <li> <a class="#" href="#news">NEWS</a></li>
+            <li> <a class="#" href="#events">EVENTS</a></li>
+            <li> <a class="#" href="#world">WORLD</a></li>
+            <li class="search"> <img id="search" src="../img/searchlogo.png" alt="Libero" /></li>
+        </ul>
+    </div>
+</header>
+<span class="clear"></span>
+<section id="left-section">
+    <p id="feelAboutRecycling" class="darkBlue defFont">How do you feel about recycling?</p>
+    <div id="ls-body">
+        <p id="postCodeLabel" class="defFont">Postcode:</p>
+        <div id="postCodeContainer" class="bdRadius borderHeight">
+            <input id="postCodeInputText" type="text"/>
+        </div>
+        <br/><br/><br/>
+        <p class="defFont">
+            Should the government start enforcing <br/>
+            garbage separation and recycling schemes <br/>
+            across your area?
         </p>
-        <input type="radio" value="Yes" checked="true"/>
-        <input type="radio" value="No" checked="false"/>
-    <section>
-
-    </section>
-
-
-    <section id="sectionright">
-        <header id="headerright">Phasellus augue sapien</header>
-        <nav>
-            <ol>
-                <li><img src="1b.jpeg" alt="Vestibulum sit amet tempor orci" style="width:135px;height:80px;"></li>
-                <section>Read more >></section>
-                <li>Phasellus augue sapien, aliquam sit amet mauris</li>
-                <li><img src="1c.jpeg" alt="Integer consectetur orci ligul" style="width:135px;height:80px;"></li>
-                <section>Read more >></section>
-                <li>Sed facilisis volutpat turpis eu viverr</li>
-            </ol>
-        </nav>
-    </section>
+        <br/>
+        <div class="bdRadius borderHeight radioBtn">
+            <input id="option" type="radio" name="enforceGarbageSeparation" value="option">
+            <label for="option"><span><span></span></span>Yes</label>
+        </div>
+        <br/>
+        <div class="bdRadius borderHeight radioBtn">
+            <input id="option" type="radio" name="enforceGarbageSeparation" value="option">
+            <label for="option"><span><span></span></span>No</label>
+        </div>
+    </div>
+    <br/><br/><br/><br/><br/>
+    <div id="submitContainer" class="bdRadius borderHeight">
+        <input type="button" value="Submit">
+    </div>
 </section>
-    <footer>
-        <section>
-            <ul class="footer-menu">
-                <li>Rutrum</li>
-                <li>Fermentum</li>
-                <li>Neque</li>
-                <li>Consequat</li>
-            </ul>
-            <ul class="footer-menu">
-                <li>Malesuada</li>
-                <li>Tellus</li>
-                <li>Condimentum</li>
-                <li>Consectetur</li>
-            </ul>
-            <ul class="footer-menu">
-                <li>Pellentesque</li>
-                <li>Habitant</li>
-                <li>Morbi</li>
-                <li>Tristique</li>
-            </ul>
-            <ul class="footer-menu">
-                <li>Quisque</li>
-                <li>Pharetra</li>
-                <li>Volutpat</li>
-                <li>Tristique</li>
-            </ul>
-            <ul class="footer-menu">
-                <li>Phasellus</li>
-                <li>Augue</li>
-                <li>Sapien</li>
-            </ul>
-        </section>
+<section id="right-section">
+    <header id="headerright">Phasellus augue<br> sapien</header>
+    <article>
+        <img src="../img/1b.jpeg" alt="Vestibulum sit amet<br> tempor orci" style="width:205px;height:120px;">
+        <h1 id="sectionright_H1a">Vestibulum sit amet<br>tempor orci</h1>
+        <h2 id="sectionright_H2a"><span>Read more >></span></h2>
+        <footer class="sectionright_F">Phasellus augue sapien,<br> aliquam sit amet mauris</footer>
+    </article>
+    <article>
+        <img src="../img/1c.jpeg" alt="Integer consectetur orci ligul" style="width:205px;height:120px;">
+        <h1 id="sectionright_H1b">Integer consectetur <br> orci ligula</h1>
+        <h2 id="sectionright_H2b"><span>Read more >></span></h2>
+        <footer class="sectionright_F">Sed facilisis volutpat turpis<br> eu viverr</footer>
+    </article>
+</section>
+<span class="clear"></span>
 
-        <section></section>
-    </footer>
+<!-- FOOTER -->
+<footer id="main-footer">
+    <section>
+        <ul class="footer-menu">
+            <li class="footer-category">Rutrum</li>
+            <li>Fermentum</li>
+            <li>Neque</li>
+            <li>Consequat</li>
+        </ul>
+        <ul class="footer-menu">
+            <li class="footer-category">Malesuada</li>
+            <li>Tellus</li>
+            <li>Condimentum</li>
+            <li>Consectetur</li>
+        </ul>
+        <ul class="footer-menu">
+            <li class="footer-category">Pellentesque</li>
+            <li>Habitant</li>
+            <li>Morbi</li>
+            <li>Tristique</li>
+        </ul>
+        <ul class="footer-menu">
+            <li class="footer-category">Quisque</li>
+            <li>Pharetra</li>
+            <li>Volutpat</li>
+            <li>Tristique</li>
+        </ul>
+        <div class="list-area">
+            <div class="list-right"></div>
+            <div class="list-right"></div>
+            <div class="list-right"></div>
+        </div>
+        <div class="list-text">
+            <div class="text-right">Phasellus</div>
+            <div class="text-right">Augue</div>
+            <div class="text-right">Sapien</div>
+        </div>
+    </section>
+</footer>
 </body>
 </html>
