@@ -28,15 +28,15 @@
         <div id="ls-container">
             <p id="feelAboutRecycling" class="darkBlue defFont">How do you feel about recycling?</p>
             <div id="ls-body">
-                <p id="postCodeLabel" class="defFont">Postcode:</p>
+                <label id="postCodeLabel" class="defFont">Postcode:</label>
                 <div id="postCodeContainer" class="bdRadius borderHeight">
                     <input id="postCodeInputText" type="text"/>
                 </div>
                 <br/>
-                <p class="defFont">
+                <span class="defFont">
                     Should the government start enforcing garbage<br/>
                     separation and recycling schemes across your area?<br/>
-                </p>
+                </span>
                 <br/>
                 <div id="yesRadioContainer" class="bdRadius borderHeight radioBtn">
                     <input id="option" type="radio" name="enforceGarbageSeparation" value="option">
@@ -47,12 +47,12 @@
                     <label for="option"><span><span></span></span>No</label>
                 </div>
                 <br/>
-                <p id="emailAddLabel" class="defFont">E-mail Address:</p>
+                <label id="emailAddLabel" class="defFont">E-mail Address:</label>
                 <div id="emailAddContainer" class="bdRadius borderHeight">
                     <input id="emailAddInputText" type="text"/>
                 </div>
                 <br/>
-                <p id="mobileNumLabel" class="defFont">Mobile Number:</p>
+                <label id="mobileNumLabel" class="defFont">Mobile Number:</label>
                 <div id="mobileNumContainer" class="bdRadius borderHeight">
                     <input id="mobileNumInputText" type="text"/>
                 </div>
@@ -64,49 +64,55 @@
         </div>
     </section>
     <section id="right-section">
-        <header id="headerright">Phasellus augue<br> sapien</header>
+        <header id="headerright">Phasellus augue<br> sapien</header><br/>
         <article>
-            <img src="../img/1b.jpeg" alt="Vestibulum sit amet<br> tempor orci" style="width:205px;height:120px;">
+            <p class="border"></p><br/>
+            <img src="../img/1b.jpeg" alt="Vestibulum sit amet tempor orci" style="width:205px;height:120px;">
+            <div class="img-wrap">
+            </div>
             <h1 id="sectionright_H1a">Vestibulum sit amet<br>tempor orci</h1>
             <h2 id="sectionright_H2a"><span>Read more >></span></h2>
-            <footer class="sectionright_F">Phasellus augue sapien,<br> aliquam sit amet mauris</footer>
-        </article>
-        <article>
+            <footer class="sectionright_F"
+            <p class="border"></p><br/>
             <img src="../img/1c.jpeg" alt="Integer consectetur orci ligul" style="width:205px;height:120px;">
+            <div class="img-wrap">
+            </div>
             <h1 id="sectionright_H1b">Integer consectetur <br> orci ligula</h1>
             <h2 id="sectionright_H2b"><span>Read more >></span></h2>
-            <footer class="sectionright_F">Sed facilisis volutpat turpis<br> eu viverr</footer>
+            <footer class="sectionright_F">Sed facilisis volutpat <br>turpis eu viverr</footer>
+            >Phasellus augue sapien,<br> aliquam sit amet mauris</footer>
         </article>
+        <article id="articleBottom"></article>
     </section>
     <span class="clear"></span>
     <footer id="main-footer">
         <section>
             <ul class="footer-menu">
-                <li>Rutrum</li>
+                <li class="footer-category">Rutrum</li>
                 <li>Fermentum</li>
                 <li>Neque</li>
                 <li>Consequat</li>
             </ul>
             <ul class="footer-menu">
-                <li>Malesuada</li>
+                <li class="footer-category">Malesuada</li>
                 <li>Tellus</li>
                 <li>Condimentum</li>
                 <li>Consectetur</li>
             </ul>
             <ul class="footer-menu">
-                <li>Pellentesque</li>
+                <li class="footer-category">Pellentesque</li>
                 <li>Habitant</li>
                 <li>Morbi</li>
                 <li>Tristique</li>
             </ul>
             <ul class="footer-menu">
-                <li>Quisque</li>
+                <li class="footer-category">Quisque</li>
                 <li>Pharetra</li>
                 <li>Volutpat</li>
                 <li>Tristique</li>
             </ul>
             <ul class="footer-menu">
-                <li>Phasellus</li>
+                <li class="footer-category">Phasellus</li>
                 <li>Augue</li>
                 <li>Sapien</li>
             </ul>
